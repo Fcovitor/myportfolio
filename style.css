@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    width: 100%;
+    font-size:large;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgb(26, 24, 24);
+    text-align: justify;
+    
+}
+
+img{
+    width: 100%;
+}
+
+/* ------------------------------------------------------------------header----------------------------------------------------- */
+
+
+
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(26, 24, 24);
+    overflow: hidden;
+    border-radius: 0 0 1rem 0;
+    
+}
+
+nav{
+display: flex;
+flex-direction: row;
+color: white; 
+padding: 1.5rem 0;
+margin: 0 3rem;
+
+
+
+
+}
+a{
+text-align: center;
+color: white;
+text-decoration: none;   
+border-radius: 0.2rem;
+
+
+
+}
+a:hover{
+color: rgb(85, 85, 168);
+
+
+}
+
+h1, p, a{
+   margin: 1rem ;
+}
+
+p::before{
+    content: "   ";
+    border: solid 2px white;
+    color: white;
+    margin: 0 1rem 0 0 ;
+
+}
+
+/* ------------------------------------------------------------------header----------------------------------------------------- */
+
+
+
+
+/* ------------------------------------------------------------------main----------------------------------------------------- */
+main{
+    max-width: 80%;
+    margin: 0 auto;
+  
+}
+/* ---------------------------------------------SECTIONS----------------------------------------- */
+section{
+padding: 0 3rem;
+}
+#section_infor{
+display: flex;
+flex-direction: row;
+align-items: center;
+background-color: rgb(85, 85, 168);
+padding: 12rem 3rem 10rem 3rem;
+border-radius: 0 0  2rem 2rem;
+box-shadow: 1px 2px 2px rgb(255, 255, 255);
+margin: 0 0 1rem 0;
+
+   
+}
+
+#section_infor > div{
+    margin: 0 10rem 0 0 ;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+
+#section_home{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(26, 24, 24);
+    padding: 12rem 3rem 10rem 3rem;
+
+    text-align: justify;
+    
+   
+   
+}
+/*
+#skills{
+    display: flex;
+    flex-direction: row;
+}
+*/
+#section_home > div{
+    margin: 0 10rem 0 0 ;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+#section_eduction{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-color:rgb(85, 85, 168);
+   padding: 12rem 3rem 10rem 3rem;
+   border-radius: 2rem 2rem  2rem 2rem;
+   box-shadow: 1px 2px 6px rgb(255, 255, 255);
+   margin: 0 0 1rem 0;
+
+   
+}
+
+#section_eduction > div{
+    margin: 0 10rem 0 0 ;
+}
+/*----------------------------------------------------*/
+
+#section_knowledge{
+    margin: 10rem 0 ;
+  
+
+}
+
+
+
+/*----------------------------------------------------*/
+
+/* ------------------------------------------------------------------------------------- */
+
+#section_expe{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26, 24, 24);
+    padding: 12rem 3rem 10rem 3rem;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+
+#section_proje{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(77, 77, 161);
+    padding: 12rem 3rem 10rem 3rem;
+    border-radius: 2rem 2rem  2rem 2rem;
+    box-shadow: 1px 2px 6px rgb(255, 255, 255);
+    margin: 0 0 1rem 0;
+   
+}
+
+ul > li{
+    list-style: none;
+    margin: 0 0 0.5rem -1rem;
+    color: white;
+}
+
+ li > a:hover{
+    background-color: rgb(113, 113, 235);
+    color: rgb(36, 36, 73);
+    border-radius: 0.2rem;
+   
+
+
+}
+
+li > a::before{
+    content: "   ";
+    border: solid 2px white;
+    color: white;
+    margin: 0 1rem 0 0 ;
+
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+
+#section_cont{
+    background-color: rgb(26, 24, 24);
+    padding: 12rem 3rem 10rem 3rem;
+
+}
+/* ------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------SECTIONS----------------------------------------- */
+
+
+/* ------------------------------------------------------------------main----------------------------------------------------- */
+
+footer{
+    background-color: rgb(26, 24, 24);
+    text-align: center;
+    padding: 0 0 1rem 0;
+
+}
